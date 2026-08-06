@@ -23,3 +23,4 @@ jobs:
           git add -A .
           git commit -m "generated matrix 3d contribution graph" || exit 0
           git push
+          SETTING_JSON: .github/profile-3d-settings.json
