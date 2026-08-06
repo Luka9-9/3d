@@ -22,3 +22,17 @@ jobs:
           git add -A .
           git commit -m "generated 3d contribution graph" || exit 0
           git push
+
+          {
+  "type": "customize",
+  "backgroundColor": "#0d1117",
+  "foregroundColor": "#00FF41",
+  "blockColors": [
+    "#161b22",
+    "#003B00",
+    "#008F11",
+    "#00FF41",
+    "#00FF66"
+  ],
+  "radarColor": "#00FF41"
+}
