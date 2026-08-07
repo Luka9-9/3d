@@ -1,13 +1,13 @@
 {
   "type": "customize",
-  "backgroundColor": "#0d1117",
-  "foregroundColor": "#00FF41",
+  "backgroundColor": "#0b0e14",
+  "foregroundColor": "#ffffff",
   "blockColors": [
     "#161b22",
-    "#003B00",
-    "#008F11",
-    "#00FF41",
-    "#00FF66"
+    "#0e4429",
+    "#006d32",
+    "#26a641",
+    "#39d353"
   ],
-  "radarColor": "#00FF41"
+  "radarColor": "#26a641"
 }
