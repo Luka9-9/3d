@@ -13,9 +13,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_3D_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: .github/profile-3d-settings.json # <-- Added this line
+          SETTING_JSON: .github/profile-3d-settings.json
       - name: Commit & Push changes
         run: |
           git config user.name github-actions[bot]
@@ -23,4 +23,3 @@ jobs:
           git add -A .
           git commit -m "generated matrix 3d contribution graph" || exit 0
           git push
-          SETTING_JSON: .github/profile-3d-settings.json
