@@ -1,11 +1,11 @@
 {
   "type": "customize",
-  "backgroundColor": "#0d1117",
-  "foregroundColor": "#58a6ff",
+  "backgroundColor": "#030712",
+  "foregroundColor": "#00f0ff",
   "blockColors": [
-    "#161b22",
-    "#00e5ff",
-    "#7c4dff",
+    "#0b0f19",
+    "#00f0ff",
+    "#7000ff",
     "#ff007f",
     "#ffe600"
   ],
