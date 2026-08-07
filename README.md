@@ -5,5 +5,5 @@
 
 <!-- Style 3: Tokyo Night Streak Stats -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Luka9-9&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=Luka9-9&theme=tokyonight&hide_border=true" alt="Streak Stats" />
 </p>
